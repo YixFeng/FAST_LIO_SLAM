@@ -1,9 +1,5 @@
 # FAST_LIO_SLAM
 
-## 中文注释说明
-
-在学习`FAST-LIO2`的过程中，希望着重理解`ikd-tree`的算法哲学和代码思路，因此基于自己的理解和思考，在代码里做了相关的中文注释。注释部分难免有误，欢迎大家批评指正。
-
 ## News
 
 -  ``Aug 2021``: The Livox-lidar tests and corresponding launch files will be uploaded soon. Currenty only Ouster lidar tutorial videos had been made. 

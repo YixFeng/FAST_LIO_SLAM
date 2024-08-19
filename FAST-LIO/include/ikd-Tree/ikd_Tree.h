@@ -52,7 +52,7 @@ struct KD_TREE_NODE
     KD_TREE_NODE *right_son_ptr = nullptr;
     // 父节点
     KD_TREE_NODE *father_ptr = nullptr;
-    // For paper data record
+    // Balancing criterion 用于Rebalancing
     float alpha_del;
     float alpha_bal;
 };
@@ -103,7 +103,8 @@ class MANUAL_Q{
 };
 
 // 自定义的大顶堆，用于堆排序，使用堆方法依次弹出最大值，执行效率高于冒泡排序
-// 参考：https://blog.csdn.net/qq_54169998/article/details/121098648
+// 参考：https://juejin.cn/post/6844903826856607757
+// 自己之前写的最大堆的优先队列（私有库）：https://github.com/YixFeng/COMP9024/blob/main/assn/pqueue.c
 class MANUAL_HEAP
 {
     public:
